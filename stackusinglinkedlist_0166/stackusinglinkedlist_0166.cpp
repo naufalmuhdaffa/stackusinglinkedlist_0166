@@ -79,7 +79,7 @@ int main()
         cout << "2. Pop\n";
         cout << "3. Peek\n";
         cout << "4. Exit\n";
-        cout << "Enter your choice: \n";
+        cout << "Enter your choice: ";
         cin >> choice;
 
         switch (choice)
@@ -105,6 +105,7 @@ int main()
                 cout << "Stack is empty. No top value" << endl;
             }
             break;
+
         case 4:
             cout << "Exiting program." << endl;
             break;
