@@ -41,6 +41,11 @@ public:
         top = top->next; // Update the top pointer to the next node
 
     }
+
+    // Peek/Top operation: Retrieve the value of the topmost ellement without removing it
+    void peek() {
+
+    }
 };
 
 int main()
