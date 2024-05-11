@@ -44,6 +44,18 @@ public:
 
     // Peek/Top operation: Retrieve the value of the topmost ellement without removing it
     void peek() {
+        if (top == NULL)
+        {
+            
+        }
+        else {
+            Node* current = top;
+            while (current != NULL)
+            {
+                
+            }
+            
+        }
 
     }
 };
